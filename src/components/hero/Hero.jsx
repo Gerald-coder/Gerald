@@ -1,6 +1,6 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
-import { Typewriter, Cursor } from "react-simple-typewriter";
+import { Typewriter } from "react-simple-typewriter";
 
 const textVariant = {
   initial: {
@@ -53,7 +53,10 @@ function Hero() {
           </motion.div>
 
           <motion.div variants={textVariant}>
-            <motion.span variants={textVariant}>
+            <motion.span
+              variants={textVariant}
+              style={{ whiteSpace: "nowrap" }}
+            >
               <motion.span variants={textVariant}>
                 A <span style={{ opacity: 0 }}>{` ${myLetter}`}</span>
               </motion.span>
@@ -66,8 +69,8 @@ function Hero() {
                 loop={0}
                 cursor
                 cursorStyle="|"
-                typeSpeed={50}
-                deleteSpeed={50}
+                typeSpeed={80}
+                deleteSpeed={70}
                 delaySpeed={1000}
                 // onLoopDone={handleDone}
                 // onType={handleType}
