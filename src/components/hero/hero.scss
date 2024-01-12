@@ -1,56 +1,124 @@
 .hero {
-  margin-top: 3rem;
-  height: calc(100vh - 6.5rem);
-  background: linear-gradient(180deg, #0c0c1d, #111132);
+  // border: 2px solid red;
   overflow: hidden;
-  position: relative;
+  padding-top: 0;
 
   .wrapper {
-    height: 100%;
-    max-width: 85.5rem;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 
-    .textContainer {
-      height: 100%;
+    @media (min-width: 768px) {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+    //
+    .left {
+      // border: 1px solid green;
       display: flex;
       flex-direction: column;
+      align-items: center;
       justify-content: center;
-      gap: 2px;
-      width: 50%;
+      gap: 1rem;
+      padding: 1rem 0;
 
-      h2 {
-        font-size: 30px;
-        color: rebeccapurple;
-        letter-spacing: 10px;
+      @media (min-width: 768px) {
+        width: 50%;
+        align-items: flex-start;
+        flex: 1.1;
+        flex-shrink: none;
+        gap: 1.2rem;
       }
 
-      h1 {
-        font-size: 88px;
-        line-height: 7rem;
-        margin-bottom: 1rem;
-      }
+      div {
+        text-align: center;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
 
-      .buttons {
-        button {
-          padding: 20px;
-          border: 1px solid white;
-          border-radius: 10px;
-          color: white;
-          background-color: transparent;
-          margin-right: 20px;
-          cursor: pointer;
+        @media (min-width: 768px) {
+          text-align: left;
+          font-size: 50px;
+          line-height: 3rem;
+        }
+
+        span {
+          font-weight: 600;
+          font-size: clamp(2rem, 3vw, 3rem);
+          display: flex;
+          color: #854ce6;
+          line-height: 28px;
         }
       }
+      //
+      p {
+        text-align: center;
+        font-size: 15px;
 
-      img {
-        width: 50px;
+        @media (min-width: 768px) {
+          text-align: left;
+          font-size: 25px;
+          line-height: 2.3rem;
+        }
+      }
+      //
+      .buttons {
+        @media (min-width: 768px) {
+          .btn {
+            background-color: #854ce6;
+            color: white;
+
+            .btn:hover {
+              background: transparent;
+              transition: transform 0.3s ease-in-out;
+              transform: scale(1.1);
+            }
+          }
+        }
+        button {
+          padding: 10px;
+          border: 1px solid white;
+          background-color: transparent;
+          border-radius: 10px;
+          color: white;
+          margin-right: 10px;
+          width: 10rem;
+          font-size: 1rem;
+          cursor: pointer;
+
+          @media (min-width: 768px) {
+            font-size: 25px;
+            width: 12rem;
+            padding: 1rem;
+            margin-right: 13px;
+          }
+        }
+        button:hover {
+          background-color: #854ce6;
+          transition: transform 0.3s ease-in-out;
+          transform: scale(1.1);
+        }
       }
     }
-  }
-  .imageContainer {
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
+
+    //
+    .right {
+      display: flex;
+      place-content: center;
+      // border: 1px solid green;
+      width: 15rem;
+      height: 20rem;
+
+      @media (min-width: 768px) {
+        width: 50%;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
   }
 }

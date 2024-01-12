@@ -2,15 +2,26 @@ import "./hero.scss";
 
 function Hero() {
   return (
-    <div className="section__padding section__margin hero">
-      <div className="wrapper">
-        <div className="left">
-          <div>
-            Hi, I am <br /> Gerald Oduigwe
-          </div>
+    <div className="hero section__padding section__margin">
+      {/* <div className="wrapper">
+        <div className="textContainer">
+          
+        </div>
+      </div>
+      <div className="imageContainer">
+        <img src="/images/gerry1.png" alt="" />
+      </div> */}
 
-          <div>
-            <span>a Software Engineer</span>
+      <div className="wrapper">
+        <div className="textContainer left">
+          <div className="title">
+            <h2>Hi, I am</h2>
+            <h2>
+              Gerald Oduigwe <br />
+            </h2>
+            <h5>
+              <span>a Software Engineer</span>
+            </h5>
           </div>
           <p>
             I am a motivated and versatile individual, always eager to take on
@@ -20,9 +31,10 @@ function Hero() {
             achieve great things.
           </p>
           <div className="buttons">
-            <button className="btn">See Resume</button>
+            <button>See Resume</button>
             <button>Contact me</button>
           </div>
+          {/* <img src="/images/scroll.png" alt="" /> */}
         </div>
         <div className="right">
           <img
