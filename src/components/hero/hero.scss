@@ -42,7 +42,7 @@
         @media (min-width: 768px) {
           text-align: left;
           font-size: 50px;
-          line-height: 3rem;
+          line-height: 3.5rem;
         }
 
         span {
@@ -90,8 +90,9 @@
           cursor: pointer;
 
           @media (min-width: 768px) {
-            font-size: 25px;
-            width: 12rem;
+            font-size: 22px;
+            white-space: none;
+            width: 13rem;
             padding: 1rem;
             margin-right: 13px;
           }
