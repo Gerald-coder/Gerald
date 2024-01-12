@@ -12,12 +12,12 @@ function App() {
       <section id="Navbar" className="hero__bg">
         <Hero />
       </section>
-      {/* <section>parralax</section>
+      <section>parralax</section>
       <section>services</section>
       <section>talk to me</section>
       <section>portfolio</section>
       <section id="Contact">contact</section>
-      <section>footer</section> */}
+      <section>footer</section>
     </div>
   );
 }
