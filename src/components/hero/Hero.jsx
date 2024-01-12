@@ -1,5 +1,6 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
+import { Typewriter, Cursor } from "react-simple-typewriter";
 
 const textVariant = {
   initial: {
@@ -30,7 +31,14 @@ const sliderVariant = {
   },
 };
 
+let myLetter = " a";
+myLetter = myLetter + " ";
+
+/* eslint-disable */
+
 function Hero() {
+  // typeWritetr
+
   return (
     <div className="section__padding section__margin hero">
       <div className="wrapper">
@@ -46,7 +54,24 @@ function Hero() {
 
           <motion.div variants={textVariant}>
             <motion.span variants={textVariant}>
-              a Software Engineer
+              <motion.span variants={textVariant}>
+                A <span style={{ opacity: 0 }}>{` ${myLetter}`}</span>
+              </motion.span>
+              <Typewriter
+                words={[
+                  " Software Engineer",
+                  "Web Developer",
+                  "Problem Solver",
+                ]}
+                loop={0}
+                cursor
+                cursorStyle="|"
+                typeSpeed={50}
+                deleteSpeed={50}
+                delaySpeed={1000}
+                // onLoopDone={handleDone}
+                // onType={handleType}
+              />
             </motion.span>
           </motion.div>
           <motion.p variants={textVariant}>
