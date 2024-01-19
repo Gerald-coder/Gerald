@@ -49,6 +49,13 @@ section {
   background: linear-gradient(180deg, #0c0c1d, #111132);
 }
 
+.parallax1__bg {
+  background: linear-gradient(180deg, #111132, #0c0c1d);
+}
+.parallax2__bg {
+  background: linear-gradient(180deg, #111132, #505064);
+}
+
 @media screen and (max-width: 768px) {
   .section__padding {
     padding: 2rem 2rem;

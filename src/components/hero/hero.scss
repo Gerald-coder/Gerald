@@ -129,14 +129,13 @@
     .textSliderContainer {
       position: absolute;
       bottom: 0;
-      font-size: 30vh;
+      font-size: 20vh;
       color: #ffffff17;
       width: 50%;
       font-weight: bold;
 
       @media (min-width: 768px) {
-        bottom: -110px;
-        left: -120px;
+        bottom: -50px;
         font-size: 50vh;
         white-space: nowrap;
         color: #ffffff09;
