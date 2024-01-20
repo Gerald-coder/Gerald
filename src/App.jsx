@@ -13,11 +13,11 @@ function App() {
       <section id="Navbar" className="hero__bg">
         <Hero />
       </section>
-      <section className="parallax1__bg">
+      <section className="parallax1__bg mountains">
         <Parallax type="services" />
       </section>
       <section>services</section>
-      <section className="parallax2__bg">
+      <section className="parallax2__bg mountains">
         <Parallax type="portfolio" />
       </section>
       <section>talk to me</section>
