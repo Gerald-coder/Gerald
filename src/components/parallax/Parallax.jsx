@@ -20,7 +20,17 @@ function Parallax({ type }) {
         {type === "services" ? "What I do ?" : "What I did ?"}
       </motion.h1>
       {/* <div className="mountains"></div> */}
-      <motion.div className="planets" style={{ y: yBg }}></motion.div>
+      <motion.div
+        className="planets"
+        style={{
+          y: yBg,
+          backgroundImage: `url(${
+            type === "services"
+              ? "/public/images/planets.png"
+              : "/public/images/sun.png"
+          })`,
+        }}
+      ></motion.div>
       <motion.div className="stars" style={{ x: yBg }}>
         {" "}
       </motion.div>
