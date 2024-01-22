@@ -3,6 +3,7 @@ import "./app.scss";
 import Hero from "./components/hero/Hero";
 import Navr from "./components/Navbar/fNav";
 import Parallax from "./components/parallax/Parallax";
+import { motion } from "framer-motion";
 
 function App() {
   return (
@@ -13,13 +14,13 @@ function App() {
       <section id="Navbar" className="hero__bg">
         <Hero />
       </section>
-      <section className="parallax1__bg mountains">
+      <motion.section className="parallax1__bg mountains">
         <Parallax type="services" />
-      </section>
+      </motion.section>
       <section>services</section>
-      <section className="parallax2__bg mountains">
+      <motion.section className="parallax2__bg mountains">
         <Parallax type="portfolio" />
-      </section>
+      </motion.section>
       <section>talk to me</section>
       <section>portfolio</section>
       <section id="Contact">contact</section>
