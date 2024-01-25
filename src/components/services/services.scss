@@ -55,9 +55,11 @@
         width: clamp(70px, 30vw, 200px);
         height: clamp(10px, 10vw, 35px);
         border-radius: 50px;
-        background-color: orange;
+        background-color: rgb(66, 37, 134);
         border: none;
         font-size: clamp(8px, 4vw, 22px);
+        cursor: pointer;
+        color: gray;
       }
     }
   }
