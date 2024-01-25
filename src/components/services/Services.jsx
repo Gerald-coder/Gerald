@@ -23,7 +23,18 @@ function Services() {
         <hr className="gradient__text" />
       </div>
       <div className="titleContainer">
-        <h1>I bring your unique business ideals to a visual life </h1>
+        <div className="title">
+          <img src="../images/code.jpeg" alt="" />
+          <h1>
+            I bring your <b>unique</b>{" "}
+          </h1>
+        </div>
+        <div className="title">
+          <h1>
+            <b>ideals</b> to visual life
+          </h1>
+          <button>What I Do ?</button>
+        </div>
       </div>
       <div className="listContainer">
         <List
