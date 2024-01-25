@@ -57,14 +57,19 @@ function Hero() {
               variants={textVariant}
               style={{ whiteSpace: "nowrap" }}
             >
-              <motion.span variants={textVariant}>
-                A <span style={{ opacity: 0 }}>{` ${myLetter}`}</span>
-              </motion.span>
+              <motion.span variants={textVariant} className="gradient__text">
+                A
+                <span
+                  className="gradient__text"
+                  style={{ opacity: 0 }}
+                >{` ${myLetter}`}</span>
+              </motion.span >
               <Typewriter
                 words={[
                   " Software Engineer",
                   "Web Developer",
                   "Problem Solver",
+                  "Web3 / Blockchain enthusiast",
                 ]}
                 loop={0}
                 cursor

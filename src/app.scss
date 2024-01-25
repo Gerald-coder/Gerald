@@ -55,6 +55,10 @@ section {
 .parallax2__bg {
   background: linear-gradient(180deg, #111132, #505064);
 }
+.service_bg {
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  height: 100%;
+}
 
 .mountains {
   // width: clamp(50%, 8vw, 100%);
@@ -85,6 +89,22 @@ section {
   .section__margin {
     margin: 4rem 1rem;
   }
+}
+
+:root {
+  --gradient-text: radial-gradient(
+    circle at 3% -25%,
+    rgba(174, 103, 250, 1) 1%,
+    rgba(244, 152, 103, 1) 100%
+  );
+}
+
+.gradient__text {
+  background: var(--gradient-text);
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 // header {

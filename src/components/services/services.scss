@@ -1,0 +1,35 @@
+.services {
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (min-width: 768px) {
+    gap: 2rem;
+  }
+  .textContainer {
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    p {
+      font-size: clamp(10px, 3vw, 30px);
+      color: gray;text-align: right;
+    }
+
+    hr {
+      width: clamp(50px, 15vw, 500px);
+      border: none;
+      border-top: 0.5px solid gray;
+    }
+  }
+  .titleContainer {
+    // border: 2px solid red;
+  }
+  .listContainer {
+    // border: 2px solid red;
+  }
+}
