@@ -55,15 +55,39 @@
         width: clamp(70px, 30vw, 200px);
         height: clamp(10px, 10vw, 35px);
         border-radius: 50px;
-        background-color: rgb(66, 37, 134);
+        background-color: orange;
         border: none;
         font-size: clamp(8px, 4vw, 22px);
         cursor: pointer;
         color: gray;
+        color:black;
       }
     }
   }
   .listContainer {
-    // border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .box {
+      padding: clamp(30px, 6vw, 50px);
+    //   border: 0.1px solid gray;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 2rem;
+
+      button {
+        border: none;
+        padding: 8px;
+        background-color: orange;
+        cursor: pointer;
+        font-size: clamp(8px, 4vw, 18px);
+      }
+    }
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
   }
 }

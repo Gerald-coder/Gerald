@@ -1,28 +1,36 @@
 import "./services.scss";
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 /* eslint-disable */
 function List({ title, body, btnTxt }) {
   return (
-    <div>
+    <motion.div
+      className="box"
+      whileHover={{
+        backgroundColor: "gray",
+        color: "black",
+        fontWeight: "900",
+        borderRadius: "10px",
+      }}
+    >
       <h1>{title}</h1>
       <p>{body}</p>
       <button>{btnTxt}</button>
-    </div>
+    </motion.div>
   );
 }
 
 function Services() {
   return (
-    <div className="section__padding section__margin services">
-      <div className="textContainer">
+    <motion.div className="section__padding section__margin services">
+      <motion.div className="textContainer">
         <p>
           I build outstanding user interfaces, <br />
           that capture users attention
         </p>
         <hr className="gradient__text" />
-      </div>
-      <div className="titleContainer">
+      </motion.div>
+      <motion.div className="titleContainer">
         <div className="title">
           <img src="../images/code.jpeg" alt="" />
           <h1>
@@ -35,8 +43,8 @@ function Services() {
           </h1>
           <button>What I Do ?</button>
         </div>
-      </div>
-      <div className="listContainer">
+      </motion.div>
+      <motion.div className="listContainer">
         <List
           body={
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, vel ratione illum perspiciatis, quas a magni id dolorem libero, sit reprehenderit ad mollitia eligendi suscipit omnis exercitationem molestiae asperiores aut?"
@@ -58,9 +66,9 @@ function Services() {
           btnTxt={"What i do"}
           title={"lets help you"}
         />
-      </div>
+      </motion.div>
       {/* <hr /> */}
-    </div>
+    </motion.div>
   );
 }
 
