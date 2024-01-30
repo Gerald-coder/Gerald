@@ -60,7 +60,7 @@
         font-size: clamp(8px, 4vw, 22px);
         cursor: pointer;
         color: gray;
-        color:black;
+        color: black;
       }
     }
   }
@@ -71,7 +71,7 @@
 
     .box {
       padding: clamp(30px, 6vw, 50px);
-    //   border: 0.1px solid gray;
+      //   border: 0.1px solid gray;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -83,6 +83,7 @@
         background-color: orange;
         cursor: pointer;
         font-size: clamp(8px, 4vw, 18px);
+        color: black;
       }
     }
 

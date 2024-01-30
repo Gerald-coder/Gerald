@@ -1,10 +1,27 @@
 import "./services.scss";
 import { motion } from "framer-motion";
 
+const variants = {
+  initials: {
+    x: -500,
+    y: 100,
+    opacity: 0,
+  },
+  animate: {
+    x: 0,
+    opacity: 1,
+    transition: {
+      duration: 1,
+      staggerChildren: 0.1,
+    },
+  },
+};
+
 /* eslint-disable */
 function List({ title, body, btnTxt }) {
   return (
     <motion.div
+      variants={variants}
       className="box"
       whileHover={{
         backgroundColor: "gray",
@@ -22,7 +39,12 @@ function List({ title, body, btnTxt }) {
 
 function Services() {
   return (
-    <motion.div className="section__padding section__margin services">
+    <motion.div
+      className="section__padding section__margin services"
+      variants={variants}
+      initial="initial"
+      animate="animate"
+    >
       <motion.div className="textContainer">
         <p>
           I build outstanding user interfaces, <br />
@@ -32,7 +54,7 @@ function Services() {
       </motion.div>
       <motion.div className="titleContainer">
         <div className="title">
-          <img src="../images/code.jpeg" alt="" />
+          <img src="/images/code.jpeg" alt="" />
           <h1>
             I bring your <b>unique</b>{" "}
           </h1>
