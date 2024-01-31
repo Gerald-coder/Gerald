@@ -1,8 +1,9 @@
+import { useRef } from "react";
 import "./services.scss";
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 
 const variants = {
-  initials: {
+  initial: {
     x: -500,
     y: 100,
     opacity: 0,
@@ -10,6 +11,7 @@ const variants = {
   animate: {
     x: 0,
     opacity: 1,
+    y: 0,
     transition: {
       duration: 1,
       staggerChildren: 0.1,
@@ -38,14 +40,19 @@ function List({ title, body, btnTxt }) {
 }
 
 function Services() {
+  const ref = useRef();
+  const isInView = useInView(ref, { margin: "-100px" });
+
   return (
     <motion.div
       className="section__padding section__margin services"
       variants={variants}
       initial="initial"
-      animate="animate"
+      whileInView="animate"
+      //   ref={ref}
+      //   animate={isInView && "animate"}
     >
-      <motion.div className="textContainer">
+      <motion.div className="textContainer" variants={variants}>
         <p>
           I build outstanding user interfaces, <br />
           that capture users attention
@@ -54,14 +61,16 @@ function Services() {
       </motion.div>
       <motion.div className="titleContainer">
         <div className="title">
-          <img src="/images/code.jpeg" alt="" />
+          <img src="images/code.jpeg" alt="" />
           <h1>
-            I bring your <b>unique</b>{" "}
+            I bring your{" "}
+            <motion.b whileHover={{ color: "orange" }}>unique</motion.b>{" "}
           </h1>
         </div>
         <div className="title">
           <h1>
-            <b>ideals</b> to visual life
+            <motion.b whileHover={{ color: "orange" }}>ideals</motion.b> to
+            visual life
           </h1>
           <button>What I Do ?</button>
         </div>
