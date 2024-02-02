@@ -69,7 +69,7 @@ function Hero() {
                   " Software Engineer",
                   "Web Developer",
                   "Problem Solver",
-                  "Blockchain enthusiast",
+                  "Web3 enthusiast",
                 ]}
                 loop={0}
                 cursor
