@@ -25,6 +25,7 @@ const variants = {
 function List({ title, body, btnTxt }) {
   return (
     <motion.div
+      data-aos="zoom-in"
       variants={variants}
       className="box"
       whileHover={{

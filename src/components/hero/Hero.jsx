@@ -63,13 +63,13 @@ function Hero() {
                   className="gradient__text"
                   style={{ opacity: 0 }}
                 >{` ${myLetter}`}</span>
-              </motion.span >
+              </motion.span>
               <Typewriter
                 words={[
                   " Software Engineer",
                   "Web Developer",
                   "Problem Solver",
-                  "Web3 / Blockchain enthusiast",
+                  "Blockchain enthusiast",
                 ]}
                 loop={0}
                 cursor
