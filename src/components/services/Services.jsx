@@ -1,6 +1,8 @@
 import { useEffect, useRef } from "react";
 import "./services.scss";
 import { motion, useInView } from "framer-motion";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const variants = {
   initial: {
@@ -40,6 +42,9 @@ function List({ title, body, btnTxt }) {
 }
 
 function Services() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   const ref = useRef();
   const isInView = useInView(ref, { margin: "-100px" });
 
@@ -55,14 +60,18 @@ function Services() {
       //   ref={ref}
       //   animate={isInView && "animate"}
     >
-      <motion.div className="textContainer" variants={variants}>
+      <motion.div
+        className="textContainer"
+        data-aos="zoom-in"
+        variants={variants}
+      >
         <p>
           I build outstanding user interfaces, <br />
           that capture users attention
         </p>
         <hr className="gradient__text" />
       </motion.div>
-      <motion.div className="titleContainer">
+      <motion.div className="titleContainer" data-aos="zoom-in">
         <div className="title">
           <img src="images/code.jpeg" alt="" />
           <h1>
@@ -78,7 +87,7 @@ function Services() {
           <button>What I Do ?</button>
         </div>
       </motion.div>
-      <motion.div className="listContainer">
+      <motion.div className="listContainer" data-aos="zoom-in">
         <List
           body={
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, vel ratione illum perspiciatis, quas a magni id dolorem libero, sit reprehenderit ad mollitia eligendi suscipit omnis exercitationem molestiae asperiores aut?"
