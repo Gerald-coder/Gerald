@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import "./services.scss";
 import { motion, useInView } from "framer-motion";
 
@@ -23,14 +23,14 @@ const variants = {
 function List({ title, body, btnTxt }) {
   return (
     <motion.div
-      variants={variants}
+      //   variants={variants}
       className="box"
-      whileHover={{
-        backgroundColor: "gray",
-        color: "black",
-        fontWeight: "900",
-        borderRadius: "10px",
-      }}
+      //   whileHover={{
+      //     backgroundColor: "gray",
+      //     color: "black",
+      //     fontWeight: "900",
+      //     borderRadius: "10px",
+      //   }}
     >
       <h1>{title}</h1>
       <p>{body}</p>
@@ -43,6 +43,9 @@ function Services() {
   const ref = useRef();
   const isInView = useInView(ref, { margin: "-100px" });
 
+  useEffect(() => {
+    console.log("Element is in view: ", isInView);
+  }, [isInView]);
   return (
     <motion.div
       className="section__padding section__margin services"
