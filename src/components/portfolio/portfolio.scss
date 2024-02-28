@@ -126,7 +126,7 @@
 
     section {
       .container {
-        height: 70vh;
+        height: 100%;
         .imageContainer {
           height: 10%;
           width: 100%;
@@ -140,6 +140,10 @@
           flex: 1;
           height: 40vh;
           padding: 1.2rem 0;
+
+          button{
+            margin-bottom: 1rem;
+        }
         }
       }
     }
