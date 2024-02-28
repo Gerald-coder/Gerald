@@ -1,10 +1,10 @@
+/* eslint-disable */
+
 import { useEffect, useRef } from "react";
 import "./portfolio.scss";
 import { useSpring, useScroll, motion, useTransform } from "framer-motion";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
-/* eslint-disable */
 
 const items = [
   {
@@ -45,16 +45,28 @@ const Single = ({ item }) => {
 
   const { scrollYProgress } = useScroll({
     target: ref,
+    offset: ["start start", "end start"],
   });
 
-  const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
+  const y = useTransform(scrollYProgress, [0, 1], ["0%", "-300%"]);
   return (
-    <section className="section__padding" ref={ref} data-aos="zoom-in">
+    <section
+      className="section__padding"
+      ref={ref}
+      // data-aos="zoom-in"
+      // data-aos="fade-right"
+      // data-aos="fade-left"
+      // data-aos="fade-up"
+    >
       <div className="container">
-        <div className="imageContainer">
+        <div className="imageContainer" data-aos="fade-right">
           <img src={item.image} alt={item.title.split[0]} />
         </div>
-        <div className="textContainer">
+        <div
+          className="textContainer"
+          // style={{ y }}
+          data-aos="fade-left"
+        >
           <h2>{item.title}</h2>
           <p>{item.desc}</p>
           <button>show demo</button>
