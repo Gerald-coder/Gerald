@@ -1,0 +1,37 @@
+.portfolio {
+  position: relative;
+  border: 2px solid red;
+  section {
+    height: 100vh;
+  }
+
+  .progress {
+    border: 2px solid red;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    font-size: clamp(10px, 4vw, 35px);
+    text-align: center;
+    color: orange;
+  }
+
+  @media screen and (max-width: 768px) {
+    .section__padding {
+      padding: 2rem 2rem;
+    }
+
+    .section__margin {
+      margin: 3rem 2rem;
+    }
+  }
+  @media screen and (max-width: 468px) {
+    .section__padding {
+      padding: 4rem 1.5rem;
+    }
+
+    .section__margin {
+      margin: 4rem 1rem;
+    }
+  }
+}

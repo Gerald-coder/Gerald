@@ -5,6 +5,8 @@ import Navr from "./components/Navbar/fNav";
 import Parallax from "./components/parallax/Parallax";
 import { motion } from "framer-motion";
 import Services from "./components/services/Services";
+import Portfolio from "./components/portfolio/Portfolio";
+
 
 function App() {
   return (
@@ -24,8 +26,7 @@ function App() {
       <motion.section className="parallax2__bg mountains">
         <Parallax type="portfolio" />
       </motion.section>
-      <section>talk to me</section>
-      <section>portfolio</section>
+      <Portfolio />
       <section id="Contact">contact</section>
       <section>footer</section>
     </div>
