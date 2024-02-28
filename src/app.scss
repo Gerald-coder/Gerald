@@ -70,6 +70,11 @@ section {
   z-index: 100;
   overflow: hidden;
   // position: absolute;
+  @media screen and (max-width: 468px) {
+    // width: 70%;
+    // height: 70%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
