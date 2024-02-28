@@ -26,7 +26,142 @@ function App() {
         <Parallax type="portfolio" />
       </motion.section>
       <Portfolio />
-      <section id="Contact">contact</section>
+      <section id="Contact">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora nobis,
+        odit officiis neque consequatur harum culpa cum aperiam! Autem, possimus
+        nulla? Illo fugiat iure a sed, rerum id qui molestiae. Lorem ipsum dolor
+        sit, amet consectetur adipisicing elit. Tempora nobis, odit officiis
+        neque consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo
+        fugiat iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. iure a sed, rerum id qui molestiae.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora nobis,
+        odit officiis neque consequatur harum culpa cum aperiam! Autem, possimus
+        nulla? Illo fugiat iure a sed, rerum id qui molestiae. iure a sed, rerum
+        id qui molestiae. Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Tempora nobis, odit officiis neque consequatur harum culpa cum
+        aperiam! Autem, possimus nulla? Illo fugiat iure a sed, rerum id qui
+        molestiae. iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit,
+        amet consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. iure a sed, rerum id qui molestiae.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora nobis,
+        odit officiis neque consequatur harum culpa cum aperiam! Autem, possimus
+        nulla? Illo fugiat iure a sed, rerum id qui molestiae. iure a sed, rerum
+        id qui molestiae. Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Tempora nobis, odit officiis neque consequatur harum culpa cum
+        aperiam! Autem, possimus nulla? Illo fugiat iure a sed, rerum id qui
+        molestiae. iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit,
+        amet consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. iure a sed, rerum id qui molestiae.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora nobis,
+        odit officiis neque consequatur harum culpa cum aperiam! Autem, possimus
+        nulla? Illo fugiat iure a sed, rerum id qui molestiae. iure a sed, rerum
+        id qui molestiae. Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Tempora nobis, odit officiis neque consequatur harum culpa cum
+        aperiam! Autem, possimus nulla? Illo fugiat iure a sed, rerum id qui
+        molestiae. iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit,
+        amet consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. iure a sed, rerum id qui molestiae.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora nobis,
+        odit officiis neque consequatur harum culpa cum aperiam! Autem, possimus
+        nulla? Illo fugiat iure a sed, rerum id qui molestiae. iure a sed, rerum
+        id qui molestiae. Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Tempora nobis, odit officiis neque consequatur harum culpa cum
+        aperiam! Autem, possimus nulla? Illo fugiat iure a sed, rerum id qui
+        molestiae. iure a sed, rerum id qui molestiae. Lorem ipsum dolor sit,
+        amet consectetur adipisicing elit. Tempora nobis, odit officiis neque
+        consequatur harum culpa cum aperiam! Autem, possimus nulla? Illo fugiat
+        iure a sed, rerum id qui molestiae. iure a sed, rerum id qui molestiae.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora nobis,
+        odit officiis neque consequatur harum culpa cum aperiam! Autem, possimus
+        nulla? Illo fugiat iure a sed, rerum id qui molestiae. iure a sed, rerum
+        id qui molestiae. Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Tempora nobis, odit officiis neque consequatur harum culpa cum
+        aperiam! Autem, possimus nulla? Illo fugiat iure a sed, rerum id qui
+        molestiae.
+      </section>
       <section>footer</section>
     </div>
   );

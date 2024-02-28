@@ -1,14 +1,12 @@
 .portfolio {
   position: relative;
-  //   border: 2px solid red;
+  margin-top: 0;
 
   .progress {
-    // border: 2px solid red;
     position: sticky;
     top: 0;
     left: 0;
     padding-top: clamp(100px, 40vh, 35px);
-    // padding-top: 100px;
     font-size: clamp(10px, 4vw, 35px);
     text-align: center;
     color: orange;
@@ -20,8 +18,11 @@
     }
   }
   section {
-    height: 100vh;
-    // border: 2px solid red;
+    height: 70vh;
+    @media screen and (max-width: 900px) {
+      height: 40vh;
+    }
+    padding: 0;
 
     .container {
       display: flex;
@@ -30,15 +31,13 @@
       width: 100%;
       height: 100%;
       gap: 4rem;
-      //   border: 2px solid green;
 
       .imageContainer {
         flex: 1;
-        height: 50%;
-        // border: 2px solid orange;
+        height: 80%;
 
         @media screen and (max-width: 900px) {
-          height: 30%;
+          height: 70%;
         }
 
         img {
@@ -50,13 +49,27 @@
 
       .textContainer {
         flex: 1;
-        // border: 2px solid white;
         display: flex;
         flex-direction: column;
         gap: 1.8rem;
+        padding: 0.6rem;
 
         h2 {
-          font-size: clamp(30px, 4vw, 70px);
+          font-size: clamp(1.6rem, 4vw, 3.5rem);
+        }
+        p {
+          color: grey;
+          font-size: clamp(1rem, 2vw, 1.5rem);
+        }
+        button {
+          background-color: orange;
+          border: none;
+          border-radius: 10px;
+          padding: 1rem;
+          width: clamp(10rem, 25vw, 18rem);
+          font-size: clamp(1rem, 2vw, 1.5rem);
+          cursor: pointer;
+          color: black;
         }
       }
     }
@@ -72,6 +85,7 @@
     }
 
     section {
+      height: 80vh;
       .container {
         flex-direction: column;
         .imageContainer {
@@ -85,7 +99,6 @@
         }
         .textContainer {
           flex: 1;
-          //   border: 2px solid white;
         }
       }
     }
@@ -107,6 +120,7 @@
 
     section {
       .container {
+        height: 70vh;
         .imageContainer {
           height: 10%;
           width: 100%;
@@ -118,8 +132,7 @@
         }
         .textContainer {
           flex: 1;
-          //   border: 2px solid white;
-          height: auto;
+          height: 40vh;
         }
       }
     }

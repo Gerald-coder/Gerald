@@ -1,6 +1,9 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import "./portfolio.scss";
 import { useSpring, useScroll, motion, useTransform } from "framer-motion";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 /* eslint-disable */
 
 const items = [
@@ -18,9 +21,26 @@ const items = [
       "https://images.pexels.com/photos/20333415/pexels-photo-20333415/free-photo-of-deckchairs-and-umbrellas-on-beach.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nihil laborum a sapiente inventore, provident dolorem ipsa delectus nam voluptatibus dolorum doloribus? Eaque sequi, laboriosam inventore aut beatae eveniet odit!",
   },
+  {
+    id: 2,
+    title: "Vanilla Ecommerce",
+    image:
+      "https://images.pexels.com/photos/20333415/pexels-photo-20333415/free-photo-of-deckchairs-and-umbrellas-on-beach.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nihil laborum a sapiente inventore, provident dolorem ipsa delectus nam voluptatibus dolorum doloribus? Eaque sequi, laboriosam inventore aut beatae eveniet odit!",
+  },
+  {
+    id: 2,
+    title: "Vanilla Ecommerce",
+    image:
+      "https://images.pexels.com/photos/20333415/pexels-photo-20333415/free-photo-of-deckchairs-and-umbrellas-on-beach.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nihil laborum a sapiente inventore, provident dolorem ipsa delectus nam voluptatibus dolorum doloribus? Eaque sequi, laboriosam inventore aut beatae eveniet odit!",
+  },
 ];
 
 const Single = ({ item }) => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   const ref = useRef();
 
   const { scrollYProgress } = useScroll({
@@ -29,12 +49,12 @@ const Single = ({ item }) => {
 
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
   return (
-    <section className="section__padding" ref={ref}>
+    <section className="section__padding" ref={ref} data-aos="zoom-in">
       <div className="container">
         <div className="imageContainer">
           <img src={item.image} alt={item.title.split[0]} />
         </div>
-        <div className="textContainer" >
+        <div className="textContainer">
           <h2>{item.title}</h2>
           <p>{item.desc}</p>
           <button>show demo</button>
