@@ -1,19 +1,65 @@
 .portfolio {
   position: relative;
-  border: 2px solid red;
-  section {
-    height: 100vh;
-  }
+  //   border: 2px solid red;
 
   .progress {
-    border: 2px solid red;
+    // border: 2px solid red;
     position: sticky;
     top: 0;
     left: 0;
-    padding-top: 20px;
+    padding-top: clamp(100px, 40vh, 35px);
+    // padding-top: 100px;
     font-size: clamp(10px, 4vw, 35px);
     text-align: center;
     color: orange;
+
+    .progressBar {
+      height: 5px;
+      border-radius: 10px;
+      background-color: #fff;
+    }
+  }
+  section {
+    height: 100vh;
+    // border: 2px solid red;
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      gap: 4rem;
+      //   border: 2px solid green;
+
+      .imageContainer {
+        flex: 1;
+        height: 50%;
+        // border: 2px solid orange;
+
+        @media screen and (max-width: 900px) {
+          height: 30%;
+        }
+
+        img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .textContainer {
+        flex: 1;
+        // border: 2px solid white;
+        display: flex;
+        flex-direction: column;
+        gap: 1.8rem;
+
+        h2 {
+          font-size: clamp(30px, 4vw, 70px);
+        }
+      }
+    }
   }
 
   @media screen and (max-width: 768px) {
@@ -24,6 +70,25 @@
     .section__margin {
       margin: 3rem 2rem;
     }
+
+    section {
+      .container {
+        flex-direction: column;
+        .imageContainer {
+          flex: 1;
+          height: 50%;
+          img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .textContainer {
+          flex: 1;
+          //   border: 2px solid white;
+        }
+      }
+    }
   }
   @media screen and (max-width: 468px) {
     .section__padding {
@@ -32,6 +97,31 @@
 
     .section__margin {
       margin: 4rem 1rem;
+    }
+
+    .progress {
+      .progressBar {
+        margin-top: 1rem;
+      }
+    }
+
+    section {
+      .container {
+        .imageContainer {
+          height: 10%;
+          width: 100%;
+          img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .textContainer {
+          flex: 1;
+          //   border: 2px solid white;
+          height: auto;
+        }
+      }
     }
   }
 }

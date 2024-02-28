@@ -1,4 +1,6 @@
+import { useRef } from "react";
 import "./portfolio.scss";
+import { useSpring, useScroll, motion, useTransform } from "framer-motion";
 /* eslint-disable */
 
 const items = [
@@ -19,15 +21,50 @@ const items = [
 ];
 
 const Single = ({ item }) => {
-  return <section className="section__padding">{item.title}</section>;
+  const ref = useRef();
+
+  const { scrollYProgress } = useScroll({
+    target: ref,
+  });
+
+  const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
+  return (
+    <section className="section__padding" ref={ref}>
+      <div className="container">
+        <div className="imageContainer">
+          <img src={item.image} alt={item.title.split[0]} />
+        </div>
+        <div className="textContainer" >
+          <h2>{item.title}</h2>
+          <p>{item.desc}</p>
+          <button>show demo</button>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 function Portfolio() {
+  const ref = useRef();
+
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["end end", "start start"],
+  });
+
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+  });
+
   return (
-    <div className="portfolio section__margin">
+    <div className="portfolio section__margin" ref={ref}>
       <div className="progress">
         <h1>Featured Works</h1>
-        <div className="progressBar"></div>
+        <motion.div
+          style={{ scaleX: scaleX }}
+          className="progressBar"
+        ></motion.div>
       </div>
       {items.map((item) => {
         return <Single item={item} key={item.id} />;
