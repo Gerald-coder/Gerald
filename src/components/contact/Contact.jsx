@@ -12,14 +12,16 @@ function Contact() {
         <div className="item">
           <h2>phone</h2>
           <span>+234 704 444 16</span>
+          <br />
           <span>+234 810 397 80</span>
         </div>
       </div>
-      <div className="formContaie">
+      <div className="formContainer">
         <form action="">
           <input type="text" placeholder="Name" />
           <input type="email" placeholder="Email" />
-          <textarea rows={8} placeholder="message"></textarea>
+          <textarea rows={8} cols={80} placeholder="message"></textarea>
+          <button>Submit</button>
         </form>
       </div>
     </div>
