@@ -6,6 +6,7 @@ import Parallax from "./components/parallax/Parallax";
 import { motion } from "framer-motion";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -26,7 +27,9 @@ function App() {
         <Parallax type="portfolio" />
       </motion.section>
       <Portfolio />
-      <section id="Contact">contact</section>
+      <section id="Contact">
+        <Contact />
+      </section>
       <section>footer</section>
     </div>
   );
