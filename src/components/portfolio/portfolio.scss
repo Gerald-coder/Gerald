@@ -125,8 +125,9 @@
     }
 
     section {
+      height: 80vh;
       .container {
-        border: 2px solid red;
+        border: 2px solid yellow;
         padding: 1.2rem 0;
         height: 100%;
         gap: 2rem;
