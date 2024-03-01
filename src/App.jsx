@@ -26,7 +26,7 @@ function App() {
       <motion.section className="parallax2__bg mountains">
         <Parallax type="portfolio" />
       </motion.section>
-      <Portfolio />
+      {/* <Portfolio /> */}
       {/* <section id="Contact">
         <Contact />
       </section> */}
