@@ -27,9 +27,9 @@ function App() {
         <Parallax type="portfolio" />
       </motion.section>
       <Portfolio />
-      <section id="Contact">
+      {/* <section id="Contact">
         <Contact />
-      </section>
+      </section> */}
       <section>footer</section>
     </div>
   );
