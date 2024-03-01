@@ -26,10 +26,10 @@ function App() {
       <motion.section className="parallax2__bg mountains">
         <Parallax type="portfolio" />
       </motion.section>
-      {/* <Portfolio /> */}
-      {/* <section id="Contact">
+      <Portfolio />
+      <section id="Contact">
         <Contact />
-      </section> */}
+      </section>
       <section>footer</section>
     </div>
   );
