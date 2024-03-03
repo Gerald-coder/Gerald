@@ -12,10 +12,10 @@ function Parallax({ type }) {
     offset: ["start start", "end start"],
   });
 
-  const yText = useTransform(scrollYProgress, [0, 1], ["0%", "500%"]);
-  const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+  const yText = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
+  const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
   return (
-    <div className="parallax section__margin section__padding" ref={ref}>
+    <div className="parallax" ref={ref}>
       <motion.h1 style={{ y: yText }}>
         {type === "services" ? "What I do ?" : "What I did ?"}
       </motion.h1>

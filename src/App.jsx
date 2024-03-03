@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
+import Lax from "./components/parallax/lax";
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
       <section id="Contact">
         <Contact />
       </section>
+      {/* <section>
+        <Lax />
+      </section> */}
       <section>footer</section>
     </div>
   );
