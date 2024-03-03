@@ -8,10 +8,12 @@ import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 // import Lax from "./components/parallax/Lax";
+import Cusor from "./components/cusor/Cusor";
 
 function App() {
   return (
     <div>
+      <Cusor />
       <div style={{ marginTop: "8rem" }}>
         <Navr />
       </div>
@@ -37,7 +39,6 @@ function App() {
       <section id="Contact">
         <Contact />
       </section>
-
       <section>footer</section>
     </div>
   );
