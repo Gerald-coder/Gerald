@@ -54,7 +54,7 @@ function Services() {
   //   }, [isInView]);
   return (
     <motion.div
-      className="section__margin services"
+      className="services"
       variants={variants}
       //   initial="initial"
       //   whileInView="animate"

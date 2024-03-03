@@ -21,19 +21,23 @@ function App() {
       <motion.section className="parallax1__bg mountains">
         <Parallax type="services" />
       </motion.section>
-      <section className="service_bg">
+      <div className="service_bg">
         <Services />
+      </div>
+      {/* <motion.section className="parallax2__bg mountains">
+        <Parallax type="portfolio" />
+      </motion.section> */}
+      <section>
+        <Lax />
       </section>
+      <Portfolio />
       <motion.section className="parallax2__bg mountains">
         <Parallax type="portfolio" />
       </motion.section>
-      <Portfolio />
       <section id="Contact">
         <Contact />
       </section>
-      {/* <section>
-        <Lax />
-      </section> */}
+
       <section>footer</section>
     </div>
   );

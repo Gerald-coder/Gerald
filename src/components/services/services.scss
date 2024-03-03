@@ -5,6 +5,8 @@
   gap: 5rem;
   //   align-items: center;
   justify-content: space-between;
+  border: 2px solid red;
+  margin-bottom: 0;
 
   @media (min-width: 768px) {
     gap: 3.5rem;
