@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
-import Lax from "./components/parallax/Lax";
+// import Lax from "./components/parallax/Lax";
 
 function App() {
   return (
@@ -27,9 +27,9 @@ function App() {
       {/* <motion.section className="parallax2__bg mountains">
         <Parallax type="portfolio" />
       </motion.section> */}
-      <section>
+      {/* <section>
         <Lax />
-      </section>
+      </section> */}
       <Portfolio />
       <motion.section className="parallax2__bg mountains">
         <Parallax type="portfolio" />

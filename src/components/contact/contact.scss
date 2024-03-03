@@ -31,6 +31,10 @@
       flex-direction: column;
       gap: clamp(1rem, 5vw, 2rem);
 
+      input {
+        height: 4rem;
+      }
+
       input,
       textarea {
         background-color: transparent;
