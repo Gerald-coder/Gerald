@@ -26,7 +26,7 @@
   .formContainer {
     flex: 1;
     form {
-      height: 50vh;
+      // height: 50vh;
       border: 1px solid green;
       display: flex;
       flex-direction: column;
@@ -98,7 +98,13 @@
 
     .formContainer {
       form {
-        width: 70vw;
+        width: 85vw;
+
+        input,
+        textarea {
+          width: 100%;
+          padding: 1rem;
+        }
       }
     }
   }
