@@ -69,6 +69,13 @@
     }
 
     .formContainer {
+      button {
+        background-color: transparent;
+        border: 1px solid orange;
+        color: orange;
+        border-radius: 5px;
+        width: 40%;
+      }
     }
   }
 }
@@ -100,6 +107,13 @@
           width: 100%;
           padding: 1rem;
           font-size: 0.9rem;
+        }
+        button {
+          background-color: transparent;
+          border: 1px solid orange;
+          color: orange;
+          border-radius: 5px;
+          width: 40%;
         }
       }
     }

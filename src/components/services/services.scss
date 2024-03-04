@@ -85,6 +85,14 @@
         cursor: pointer;
         font-size: clamp(8px, 4vw, 18px);
         color: black;
+
+        @media (max-width: 768px) {
+          background-color: transparent;
+          border: 1px solid orange;
+          color: orange;
+          border-radius: 5px;
+          width: 40%;
+        }
       }
     }
 

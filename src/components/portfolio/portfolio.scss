@@ -88,7 +88,10 @@
     .section__margin {
       margin: 3rem 2rem;
     }
-
+    .progress {
+      .progressBar {
+      }
+    }
     section {
       height: 80vh;
       .container {
@@ -108,6 +111,13 @@
         .textContainer {
           flex: 1;
           padding: 1.2rem 0;
+          button {
+            background-color: transparent;
+            border: 1px solid orange;
+            color: orange;
+            border-radius: 5px;
+            width: 40%;
+          }
         }
       }
     }
