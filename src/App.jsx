@@ -26,16 +26,13 @@ function App() {
       <div className="service_bg">
         <Services />
       </div>
-      {/* <motion.section className="parallax2__bg mountains">
+      <motion.section className="parallax2__bg mountains">
         <Parallax type="portfolio" />
-      </motion.section> */}
+      </motion.section>
       {/* <section>
         <Lax />
       </section> */}
       <Portfolio />
-      <motion.section className="parallax2__bg mountains">
-        <Parallax type="portfolio" />
-      </motion.section>
       <section id="Contact">
         <Contact />
       </section>
