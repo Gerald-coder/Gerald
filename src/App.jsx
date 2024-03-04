@@ -9,6 +9,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 // import Lax from "./components/parallax/Lax";
 import Cusor from "./components/cusor/Cusor";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -33,7 +34,9 @@ function App() {
       <section id="Contact">
         <Contact />
       </section>
-      <section>footer</section>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
