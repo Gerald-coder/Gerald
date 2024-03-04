@@ -21,20 +21,20 @@ const items = [
       "https://images.pexels.com/photos/20333415/pexels-photo-20333415/free-photo-of-deckchairs-and-umbrellas-on-beach.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nihil laborum a sapiente inventore, provident dolorem ipsa delectus nam voluptatibus dolorum doloribus? Eaque sequi, laboriosam inventore aut beatae eveniet odit!",
   },
-  {
-    id: 2,
-    title: "Vanilla Ecommerce",
-    image:
-      "https://images.pexels.com/photos/20333415/pexels-photo-20333415/free-photo-of-deckchairs-and-umbrellas-on-beach.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nihil laborum a sapiente inventore, provident dolorem ipsa delectus nam voluptatibus dolorum doloribus? Eaque sequi, laboriosam inventore aut beatae eveniet odit!",
-  },
-  {
-    id: 2,
-    title: "Vanilla Ecommerce",
-    image:
-      "https://images.pexels.com/photos/20333415/pexels-photo-20333415/free-photo-of-deckchairs-and-umbrellas-on-beach.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nihil laborum a sapiente inventore, provident dolorem ipsa delectus nam voluptatibus dolorum doloribus? Eaque sequi, laboriosam inventore aut beatae eveniet odit!",
-  },
+  // {
+  //   id: 3,
+  //   title: "Vanilla Ecommerce",
+  //   image:
+  //     "https://images.pexels.com/photos/20333415/pexels-photo-20333415/free-photo-of-deckchairs-and-umbrellas-on-beach.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+  //   desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nihil laborum a sapiente inventore, provident dolorem ipsa delectus nam voluptatibus dolorum doloribus? Eaque sequi, laboriosam inventore aut beatae eveniet odit!",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Vanilla Ecommerce",
+  //   image:
+  //     "https://images.pexels.com/photos/20333415/pexels-photo-20333415/free-photo-of-deckchairs-and-umbrellas-on-beach.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+  //   desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nihil laborum a sapiente inventore, provident dolorem ipsa delectus nam voluptatibus dolorum doloribus? Eaque sequi, laboriosam inventore aut beatae eveniet odit!",
+  // },
 ];
 
 const Single = ({ item }) => {

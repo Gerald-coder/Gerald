@@ -93,3 +93,10 @@
     }
   }
 }
+@media (min-width: 768px) {
+  .box:hover {
+    background-color: lightgray;
+    color: #000000;
+    border-radius: 10px;
+  }
+}

@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import "./services.scss";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -24,17 +24,7 @@ const variants = {
 /* eslint-disable */
 function List({ title, body, btnTxt }) {
   return (
-    <motion.div
-      data-aos="zoom-in"
-      variants={variants}
-      className="box"
-      whileHover={{
-        backgroundColor: "gray",
-        color: "black",
-        fontWeight: "900",
-        borderRadius: "10px",
-      }}
-    >
+    <motion.div data-aos="zoom-in" variants={variants} className="box">
       <h1>{title}</h1>
       <p>{body}</p>
       <button>{btnTxt}</button>
@@ -47,20 +37,9 @@ function Services() {
     Aos.init({ duration: 2000 });
   });
   const ref = useRef();
-  const isInView = useInView(ref, { margin: "-100px" });
 
-  //   useEffect(() => {
-  //     console.log("Element is in view: ", isInView);
-  //   }, [isInView]);
   return (
-    <motion.div
-      className="section__margin services"
-      variants={variants}
-      //   initial="initial"
-      //   whileInView="animate"
-      //   ref={ref}
-      //   animate={isInView && "animate"}
-    >
+    <motion.div className="section__margin services" variants={variants}>
       <motion.div
         className="textContainer"
         data-aos="zoom-in"

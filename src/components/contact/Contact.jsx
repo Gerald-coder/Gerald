@@ -25,9 +25,9 @@ function Contact() {
         </div>
         <div className="item" data-aos="fade-up">
           <h2>phone</h2>
-          <span>+234 704 444 16</span>
+          <span>+234 70 484 446 16</span>
           <br />
-          <span>+234 810 397 80</span>
+          <span>+234 81 039 780 58</span>
         </div>
       </div>
       <div className="formContainer" data-aos="fade-up">

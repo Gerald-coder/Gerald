@@ -96,7 +96,6 @@
         gap: 2rem;
         height: 100%;
         .imageContainer {
-          border: 2px solid yellow;
           flex: 1;
           height: 50%;
           width: 100%;
@@ -107,8 +106,6 @@
           }
         }
         .textContainer {
-          border: 2px solid yellow;
-
           flex: 1;
           padding: 1.2rem 0;
         }
@@ -134,11 +131,11 @@
       height: 90vh;
       .container {
         padding: 1rem 0;
-        
+
         height: 100%;
         gap: 1rem;
         .imageContainer {
-          height: 50%; //
+          height: 50%;
           width: 100%;
           img {
             object-fit: cover;
@@ -148,12 +145,10 @@
         }
         .textContainer {
           flex: 1;
-          //   height: 40vh;
           padding: 1.2rem 0;
           gap: 1rem;
 
           button {
-            ///
             margin-bottom: 3.5rem;
           }
         }
